@@ -1,3 +1,10 @@
+:root {
+  --ligthBlue-color: #C9E0E8;
+  --gray-color: #7C7C7C;
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
