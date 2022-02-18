@@ -1,4 +1,11 @@
 @media screen and (min-width: 768px) {
+
+  /* Header ============== */
+
+  h1 {
+    font-size: 44px;
+  }
+
   /* Header ============== */
 
   .open-menu {
@@ -19,5 +26,14 @@
   .menu-list {
     grid-auto-flow: column;
   }
+}
 
+
+@media screen and (min-width: 1024px) {
+  /* Banner ============== */
+
+  .banner-container {
+    width: 55%;
+    gap: 30px;
+  }
 }
