@@ -31,6 +31,7 @@ h1 {
 
 h2 {
   font-size: 25px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -116,3 +117,35 @@ button {
   font-weight: bold;
   color: var(--black-color);
 }
+
+/* Process-visa ============== */
+.process-visa-container {
+  display: grid;
+  gap: 20px;
+}
+
+.process-visa-img img {
+  width: 100%;
+}
+
+.process-visa-content p {
+  color: var(--gray-color);
+}
+
+/* Visas-types ============== */
+.visas-types-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.visa-types-card {
+  box-shadow: 0px 0px 14px 0px #00000040;
+}
+
+.visa-types-card-img img{
+  width: 100%;
+}
+
+
+
