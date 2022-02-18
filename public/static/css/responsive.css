@@ -1,13 +1,15 @@
 @media screen and (min-width: 768px) {
 
-  /* Header ============== */
-
+  /* Global ============== */
   h1 {
     font-size: 44px;
   }
 
-  /* Header ============== */
+  h2 {
+    font-size: 35px;
+  }
 
+  /* Header ============== */
   .open-menu {
     display: none;
   }
@@ -26,14 +28,41 @@
   .menu-list {
     grid-auto-flow: column;
   }
+
+  /* Banner ============== */
+
+
+  /* Process-visa ============== */
+
+
+  /* Visas-types ============== */
+
+
+  /* About ============== */
+  .about-container {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 
 @media screen and (min-width: 1024px) {
   /* Banner ============== */
-
   .banner-container {
     width: 55%;
     gap: 30px;
+  }
+
+  /* Process-visa ============== */
+
+
+  /* Visas-types ============== */
+
+
+  /* About ============== */
+  .about-container {
+    gap: 40px;
   }
 }
