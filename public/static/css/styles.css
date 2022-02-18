@@ -261,4 +261,48 @@ button {
   object-fit: cover;
 }
 
+/* Steps-to-apply ============== */
+.steps-to-apply {
+  background-color: var(--ligthBlue-color);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.step {
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid var(--black-color);
+  padding: 80px 20px 50px 20px;
+  margin-top: 50px;
+}
+
+.step-icon {
+  background-color: var(--black-color);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.step h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.step p {
+  font-size: 18px;
+}
+
 
