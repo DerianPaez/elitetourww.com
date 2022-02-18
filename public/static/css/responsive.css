@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+  /* Header ============== */
+
+  .open-menu {
+    display: none;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .header-menu {
+    position: static;
+    background-color: transparent;
+    width: auto;
+    transition: none;
+  }
+
+  .menu-list {
+    grid-auto-flow: column;
+  }
+
+}
