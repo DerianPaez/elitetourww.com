@@ -50,6 +50,15 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  /* Services-list ============== */
+
+
+  /* Countries ============== */
+  .countries-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 
@@ -74,5 +83,13 @@
   /* Steps-to-apply ============== */
   .steps {
     gap: 60px;
+  }
+
+  /* Services-list ============== */
+
+
+  /* Countries ============== */
+  .countries-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
