@@ -33,10 +33,14 @@
 
 
   /* Process-visa ============== */
-
+  .process-visa-container {
+    grid-template-columns: 1fr 1fr;
+  }
 
   /* Visas-types ============== */
-
+  .visa-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   /* About ============== */
   .about-container {
@@ -45,6 +49,12 @@
     align-items: center;
   }
 
+  /* Service-list ============== */
+  
+  /* Footer ============== */
+  .footer-menu {
+    grid-auto-flow: column;
+  }
 }
 
 
@@ -59,7 +69,9 @@
 
 
   /* Visas-types ============== */
-
+  .visa-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   /* About ============== */
   .about-container {

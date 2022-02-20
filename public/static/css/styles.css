@@ -46,6 +46,10 @@ h4 {
   font-size: 16px;
 }
 
+p {
+  color: var(--gray-color);
+}
+
 button {
   border: none;
   outline: none;
@@ -185,6 +189,8 @@ button {
 
 .process-visa-img img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .process-visa-content p {
@@ -192,9 +198,9 @@ button {
 }
 
 /* Visas-types ============== */
-.visas-types-container {
+.visa-cards-container {
   display: grid;
-  justify-content: center;
+  gap: 25px;
   align-items: center;
 }
 
@@ -212,6 +218,7 @@ button {
 .visa-types-card-img img {
   width: 100%;
   display: block;
+  object-fit: cover;
 }
 
 .visa-types-card-icon {
@@ -261,4 +268,83 @@ button {
   object-fit: cover;
 }
 
+/* Service-list ============== */
+.service-list-left-right-container {
+  display: grid;
+  gap: 20px;
+}
 
+.service-list-left, .service-list-right {
+  display: grid;
+  gap: 20px;
+}
+
+.service-list-content-left, .service-list-content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .service-list-content-right {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} */
+
+.service-list-circle {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ligthBlue-color);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.service-list-circle p {
+  font-size: 35px;
+  color: var(--black-color);
+  font-weight: 800;
+}
+
+/* Contact ============== */
+
+/* Footer ============== */
+.footer-menu-social-media {
+  background-color: var(--ligthBlue-color);
+  display: grid;
+  gap: 25px;
+  padding: 20px 10%;
+}
+
+.footer-menu {
+  display: grid;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-menu a {
+  color: var(--black-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-rights {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 20px 10%;
+  text-align: center;
+}
