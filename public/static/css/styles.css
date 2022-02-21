@@ -187,6 +187,10 @@ button {
   gap: 20px;
 }
 
+.process-visa-img {
+  height: 100%;
+}
+
 .process-visa-img img {
   width: 100%;
   height: 100%;
@@ -200,6 +204,7 @@ button {
 /* Visas-types ============== */
 .visa-cards-container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   align-items: center;
 }
@@ -268,6 +273,46 @@ button {
   object-fit: cover;
 }
 
+/* Steps-to-apply ============== */
+.steps-to-apply {
+  background-color: var(--ligthBlue-color);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.step {
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid var(--black-color);
+  padding: 60px 20px 50px 20px;
+  margin-top: 50px;
+}
+
+.step-icon {
+  background-color: var(--black-color);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: -35px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.step h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
 /* Service-list ============== */
 .service-list-left-right-container {
   display: grid;
@@ -310,12 +355,67 @@ button {
   font-weight: 800;
 }
 
+/* Countries ============== */
+.countries-container h2 {
+  text-align: center;
+}
+
+.countries-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.country {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  display: block;
+}
+
+.country img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.country::before {
+  content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.45);
+}
+
+.country span {
+  font-size: 28px;
+  font-weight: bold;
+  width: max-content;
+  height: min-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: var(--white-color);
+}
+
+.country::hover {
+  color: transparent;
+  border-radius: 20px;
+}
+
 /* Contact ============== */
 
 /* Footer ============== */
 .footer-menu-social-media {
   background-color: var(--ligthBlue-color);
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 25px;
   padding: 20px 10%;
 }

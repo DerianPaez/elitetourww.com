@@ -35,12 +35,14 @@
   /* Process-visa ============== */
   .process-visa-container {
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Visas-types ============== */
-  .visa-cards-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  /* .visa-cards-container {
+    grid-template-columns: repeat(auto-fit, );
+  } */
 
   /* About ============== */
   .about-container {
@@ -49,9 +51,28 @@
     align-items: center;
   }
 
+  /* Steps-to-apply ============== */
+  /* .steps {
+    grid-template-columns: repeat(3, 1fr);
+  } */
+
   /* Service-list ============== */
   
+  /* Countries ============== */
+  /* .countries-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  } */
+
+  /* Contact ============== */
+
   /* Footer ============== */
+  .footer-menu-social-media {
+    flex-direction: initial;
+    justify-content: space-between
+  }
+
   .footer-menu {
     grid-auto-flow: column;
   }
@@ -70,11 +91,28 @@
 
   /* Visas-types ============== */
   .visa-cards-container {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
   }
 
   /* About ============== */
   .about-container {
     gap: 40px;
   }
+
+  /* Steps-to-apply ============== */
+  .steps {
+    gap: 60px;
+  }
+
+  /* Services-list ============== */
+
+  /* Countries ============== */
+  .countries-list {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 60px;
+  }
+
+  /* Contact ============== */
+
+  /* Footer ============== */
 }
