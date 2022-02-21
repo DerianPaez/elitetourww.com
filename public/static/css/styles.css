@@ -67,6 +67,16 @@ button {
   font-weight: 700;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.45);
+  transition: .6s;
+}
+
 /* Header ============== */
 .header {
   position: fixed;
@@ -322,6 +332,15 @@ button {
   height: 180px;
   text-align: center;
   display: block;
+  transition: .3s;
+}
+
+.country:hover .overlay{
+  background-color: transparent;
+}
+
+.country:hover .country-name{
+  color: transparent;
 }
 
 .country img {
@@ -330,17 +349,8 @@ button {
   object-fit: cover;
 }
 
-.country::before {
-  content:'';
-	position: absolute;
-  top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0, 0, 0, 0.45);
-}
-
-.country span {
+.country-name {
+  transition: .3s;
   font-size: 28px;
   font-weight: bold;
   width: max-content;
@@ -353,10 +363,3 @@ button {
   margin: auto;
   color: var(--white-color);
 }
-
-.country::hover {
-  color: transparent;
-  border-radius: 20px;
-}
-
-
