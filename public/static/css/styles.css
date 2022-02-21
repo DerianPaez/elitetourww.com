@@ -452,6 +452,7 @@ button {
   color: var(--gray-color);
   width: 100%;
   outline: none;
+  resize: vertical;
 }
 
 .contact-input::placeholder {
