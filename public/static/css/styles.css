@@ -36,10 +36,11 @@ h1 {
 h2 {
   font-size: 1.5em;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.30em;
 }
 
 h4 {
@@ -68,8 +69,13 @@ button {
   border: 2px solid var(--ligthBlue-color);
   border-radius: 5px;
   color: var(--black-color);
-  font-size: 1.25em;
+  font-size: 1.1em;
   font-weight: 700;
+  transition: .3s ease;
+}
+
+.button-default:hover {
+  background-color: var(--ligthBlue-color);
 }
 
 .overlay {
@@ -133,6 +139,7 @@ button {
   top: 25px;
   right: 10%;
 }
+
 .menu-list {
   display: grid;
   grid-auto-flow: row;
@@ -145,6 +152,11 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   color: var(--black-color);
+  transition: .3s;
+}
+
+.menu-list li a:hover {
+  color: var(--gray-color);
 }
 
 /* Banner ============== */
@@ -194,6 +206,11 @@ button {
   color: var(--white-color);
 }
 
+.banner-container a:hover {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
 /* Process-visa ============== */
 .process-visa-container {
   display: grid;
@@ -208,6 +225,10 @@ button {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.process-visa-content h2 {
+  text-align: left;
 }
 
 .process-visa-content p {
@@ -271,6 +292,10 @@ button {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+}
+
+.about-text h2 {
+  text-align: left;
 }
 
 .about-image {
@@ -366,10 +391,6 @@ button {
 }
 
 /* Countries ============== */
-.countries-container h2 {
-  text-align: center;
-}
-
 .countries-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -480,7 +501,7 @@ button {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: max-content;
-  gap: 10px;
+  gap: 20px;
 }
 
 /* Footer ============== */
@@ -489,7 +510,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 20px 10%;
+  padding: 20px 7%;
 }
 
 .footer-menu {
@@ -505,6 +526,11 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.1em;
+  transition: .3s;
+}
+
+.footer-menu a:hover {
+  color: var(--gray-color);
 }
 
 .footer-social-media {
@@ -514,10 +540,18 @@ button {
   align-items: center;
 }
 
+.footer-social-media svg, .contact-social-media svg {
+  transition: .2s;
+}
+
+.footer-social-media svg:hover, .contact-social-media svg:hover {
+  transform: scale(1.3);
+}
+
 .footer-rights {
   background-color: var(--black-color);
   color: var(--white-color);
-  padding: 20px 10%;
+  padding: 20px 7%;
   text-align: center;
 }
 

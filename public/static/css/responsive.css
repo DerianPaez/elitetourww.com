@@ -55,10 +55,6 @@
   /* Steps-to-apply ============== */
 
   /* Service-list ============== */
-  .service-list-container h2 {
-    text-align: center;
-  }
-
   .service-list-left-right-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -71,7 +67,7 @@
 
   /* Contact ============== */
   .contact-content-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   .contact-form {
@@ -166,6 +162,9 @@
   }
 
   /* Contact ============== */
+  .contact-content-container {
+    grid-template-columns: 3fr 1fr;
+  }
 
   /* Footer ============== */
 }
