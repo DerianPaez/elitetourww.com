@@ -48,6 +48,7 @@ h4 {
 
 p {
   color: var(--gray-color);
+  font-weight: 600;
 }
 
 button {
@@ -58,7 +59,7 @@ button {
 }
 
 .wrapper {
-  padding: 0 10%;
+  padding: 0 7%;
 }
 
 .button-default {
@@ -87,6 +88,7 @@ button {
   width: 100%;
   background-color: var(--ligthBlue-color);
   z-index: 1000;
+  box-shadow: 0px 1px 12px 0px #00000059;
 }
 
 .header-container {
@@ -334,20 +336,17 @@ button {
   gap: 20px;
 }
 
-.service-list-content-left, .service-list-content-right {
-  display: flex;
+.service-list-right .service-content {
+  grid-template-columns: max-content 3fr;
+}
+
+.service-content {
+  display: grid;
+  grid-template-columns: 3fr max-content;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-
-/* .service-list-content-right {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-} */
 
 .service-list-circle {
   display: grid;

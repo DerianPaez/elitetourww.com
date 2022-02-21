@@ -7,6 +7,7 @@
 
   h2 {
     font-size: 2em;
+    margin-bottom: 60px;
   }
 
   /* Header ============== */
@@ -33,6 +34,9 @@
 
 
   /* Process-visa ============== */
+  .process-visa {
+    padding-top: 100px;
+  }
   .process-visa-container {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -57,6 +61,13 @@
   } */
 
   /* Service-list ============== */
+  .service-list-left-right-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-list-left p {
+    text-align: right;
+  }
   
   /* Countries ============== */
   /* .countries-list {
@@ -92,7 +103,9 @@
   }
 
   /* Process-visa ============== */
-
+  .process-visa-container {
+    gap: 60px;
+  }
 
   /* Visas-types ============== */
   .visa-cards-container {
