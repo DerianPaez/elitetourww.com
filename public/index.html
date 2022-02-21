@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Elite Tour</title>
   <link rel="shortcut icon" href="./static/icons/Favicon.svg" type="image/x-icon">
+  <title>Elite Tour</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
@@ -18,9 +19,11 @@
   <header class="header">
     <div class="wrapper">
       <div class="header-container">
-        <figure class="header-logo">
-          <img src="static/images/Logo.png" alt="Logo EliteTour">
-        </figure>
+        <a href="">
+          <figure class="header-logo">
+            <img src="static/images/Logo.png" alt="Logo EliteTour">
+          </figure>
+        </a>
         <button id="menu-icon-open" class="open-menu">
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M26.4286 13.2143H3.57143C2.58571 13.2143 2.5 14.0125 2.5 15C2.5 15.9875 2.58571 16.7857 3.57143 16.7857H26.4286C27.4143 16.7857 27.5 15.9875 27.5 15C27.5 14.0125 27.4143 13.2143 26.4286 13.2143ZM26.4286 20.3571H3.57143C2.58571 20.3571 2.5 21.1553 2.5 22.1428C2.5 23.1303 2.58571 23.9286 3.57143 23.9286H26.4286C27.4143 23.9286 27.5 23.1303 27.5 22.1428C27.5 21.1553 27.4143 20.3571 26.4286 20.3571ZM3.57143 9.64284H26.4286C27.4143 9.64284 27.5 8.84463 27.5 7.85713C27.5 6.86963 27.4143 6.07141 26.4286 6.07141H3.57143C2.58571 6.07141 2.5 6.86963 2.5 7.85713C2.5 8.84463 2.58571 9.64284 3.57143 9.64284V9.64284Z" fill="#0F1332"/>
@@ -45,7 +48,7 @@
 
   <section class="banner">
     <div class="wrapper">
-      <div class="banner-container">
+      <div data-aos="fade-left" class="banner-container">
         <h1>La mejor solución, asesoría en trámite de visas</h1>
         <p>Ofrecemos asesoría profesional personalizada, rápida y eficiente durante todo el proceso de visado</p>
         <a href="#contact-id" class="banner-button button-default">Contacto</a>
@@ -56,10 +59,10 @@
   <section class="process-visa">
     <div class="wrapper">
       <div class="process-visa-container">
-        <figure class="process-visa-img">
+        <figure data-aos="fade-right" class="process-visa-img">
           <img src="./static/images/Tramite_su_visa.png" alt="">
         </figure>
-        <div class="process-visa-content">
+        <div data-aos="fade-left" class="process-visa-content">
           <h2>Tramite su visa con uno de nuestros expertos</h2>
           <p>Si usted no se siente completamente seguro de llevar a cabo esta gestión por sí mismo, permita que uno de nuestros expertos realice el trámite por usted. Quédese tranquilo y seguro de que su agente asignado efectuara de manera correcta su gestión.</p>
           <br>
@@ -77,7 +80,7 @@
 
         <div class="visa-cards-container">
 
-          <div class="visa-types-card">
+          <div data-aos="fade-right" class="visa-types-card">
             <div class="visa-types-card-img-container">
               <figure class="visa-types-card-img">
                 <img src="./static/images/Visa_Estudiantes.png" alt="">
@@ -95,7 +98,7 @@
             </div>
           </div>
 
-          <div class="visa-types-card">
+          <div data-aos="fade-down" class="visa-types-card">
             <div class="visa-types-card-img-container">
               <figure class="visa-types-card-img">
                 <img src="./static/images/Visa_Trabajo.png" alt="">
@@ -114,7 +117,7 @@
             </div>
           </div>
 
-          <div class="visa-types-card">
+          <div data-aos="fade-left" class="visa-types-card">
             <div class="visa-types-card-img-container">
               <figure class="visa-types-card-img">
                 <img src="./static/images/Visa_Turismo.png" alt="">
@@ -140,14 +143,14 @@
   <main id="about-id" class="about">
     <div class="wrapper">
       <div class="about-container">
-        <div class="about-text">
+        <div data-aos="fade-right" class="about-text">
           <h2>Descubre más acerca de nosotros</h2>
           <p>Somos una agencia dedica a proporcionar a los clientes una manera simple, rápida y confiable de obtener la documentación de viaje para su viaje. Nuestro proceso de solicitud en línea hace que obtener visas, declaraciones de salud o fotos de pasaporte sea muy fácil, y todo desde la comodidad de su hogar.</p>
           <br>
           <br>
           <p>Como empresa independiente líder en la industria de la documentación de viajes, nos enorgullece hacer que los viajes globales sean más accesibles para todos.</p>
         </div>
-        <figure class="about-image">
+        <figure data-aos="fade-left" class="about-image">
           <img src="./static/images/Nosotros.png" alt="Nosotros">
         </figure>
       </div>
@@ -161,7 +164,7 @@
 
         <div class="steps">
 
-          <div class="step">
+          <div data-aos="fade-right" class="step">
             <div class="step-icon">
               <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M24.7903 12.3281L22.3528 9.89059L11.7665 20.4787L14.2097 22.9218L24.7903 12.3281V12.3281ZM25.4531 11.6653L27.074 10.0425C27.4397 9.67684 27.4369 9.08152 27.0694 8.71496L25.9631 7.61152C25.5947 7.24402 25.0022 7.24121 24.6347 7.60871L23.0156 9.22871L25.4522 11.6653H25.4531ZM11.16 21.1978L10.56 24.1162L13.499 23.5378L11.16 21.1987V21.1978ZM20.625 17.8125V27.1837C20.625 28.2281 19.7869 29.0625 18.7528 29.0625H4.6856C3.64779 29.0625 2.81342 28.2215 2.81342 27.1837V7.50277C2.81342 6.4584 3.65154 5.62402 4.6856 5.62402H5.62592C5.62873 4.58434 6.46779 3.74902 7.50373 3.74902H8.43842C8.43935 2.1909 9.70217 0.936523 11.2594 0.936523H12.18C13.7353 0.936523 15 2.19559 15.0009 3.74902H15.9356C16.9744 3.74902 17.8106 4.58809 17.8134 5.62402H18.7537C19.7915 5.62402 20.6259 6.46496 20.6259 7.50277V10.3115L23.9822 6.95527C24.7256 6.21184 25.905 6.21652 26.6353 6.9459L27.7415 8.05121C28.469 8.77871 28.4681 9.96934 27.7322 10.7043L20.6259 17.8106L20.625 17.8125ZM19.6875 11.25V7.50277C19.6875 6.9834 19.2609 6.56246 18.75 6.56246H17.8125C17.8097 7.60215 16.9706 8.43746 15.9347 8.43746H7.50279C6.46404 8.43746 5.62779 7.5984 5.62498 6.56246H4.68748C4.16998 6.56246 3.74998 6.97402 3.74998 7.50277V27.1846C3.74998 27.704 4.17654 28.125 4.68748 28.125H18.75C19.2675 28.125 19.6875 27.7134 19.6875 27.1846V18.75L14.0625 24.375L9.37498 25.3125L10.3125 20.625L19.6875 11.25ZM9.37498 4.68746H7.49623C6.9806 4.68746 6.56248 5.10277 6.56248 5.62402V6.5634C6.56248 7.0809 6.97967 7.49996 7.49623 7.49996H15.9422C16.4578 7.49996 16.8759 7.08465 16.8759 6.5634V5.62402C16.8759 5.10652 16.4587 4.68746 15.9422 4.68746H14.0634V3.74809C14.0634 2.71402 13.2253 1.87496 12.1837 1.87496H11.2556C10.2178 1.87496 9.37592 2.71684 9.37592 3.74809V4.68746H9.37498ZM11.7187 4.68746C11.9775 4.68746 12.1875 4.47746 12.1875 4.21871C12.1875 3.95996 11.9775 3.74996 11.7187 3.74996C11.46 3.74996 11.25 3.95996 11.25 4.21871C11.25 4.47746 11.46 4.68746 11.7187 4.68746Z" fill="white" stroke="white" stroke-width="0.8"/>
@@ -171,7 +174,7 @@
             <p>Elite Tour llenara todos los formularios requeridos cuando solicite una visa</p>
           </div>
 
-          <div class="step">
+          <div data-aos="fade-down" class="step">
             <div class="step-icon">
               <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M26.8884 10.4616C26.2378 9.57375 25.3303 8.53688 24.3347 7.54031C23.3391 6.54375 22.3012 5.63719 21.4134 4.98656C19.9022 3.87844 19.17 3.75 18.75 3.75H7.96875C6.67594 3.75 5.625 4.80187 5.625 6.09375V27.6562C5.625 28.9481 6.67594 30 7.96875 30H25.7812C27.0731 30 28.125 28.9481 28.125 27.6562V13.125C28.125 12.705 27.9966 11.9719 26.8884 10.4616V10.4616ZM23.0091 8.86594C23.9081 9.765 24.6141 10.5769 25.1353 11.25H20.625V6.73969C21.2981 7.26094 22.11 7.96687 23.0091 8.86594ZM26.25 27.6562C26.25 27.9103 26.0353 28.125 25.7812 28.125H7.96875C7.71469 28.125 7.5 27.9103 7.5 27.6562V6.09375C7.5 5.83969 7.71469 5.625 7.96875 5.625C7.96875 5.625 18.7491 5.625 18.75 5.625V12.1875C18.75 12.705 19.17 13.125 19.6875 13.125H26.25V27.6562Z" fill="white"/>
@@ -182,7 +185,7 @@
             <p>Elite Tour enviará todos los documentos certificados que deban enviarse</p>
           </div>
 
-          <div class="step">
+          <div data-aos="fade-left" class="step">
             <div class="step-icon">
               <svg width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16.7857 6.53346C16.7857 6.72319 16.7801 7.35879 16.769 7.53792L16.6741 11.1595C16.673 11.1784 16.677 11.1971 16.6859 11.2138C16.6948 11.2304 16.7081 11.2443 16.7243 11.2539L25.5156 18.4848C25.5736 18.5287 25.6215 18.5847 25.6558 18.6488C25.6901 18.713 25.71 18.7839 25.7142 18.8565V20.357L16.7299 16.2834C16.7093 16.2737 16.6866 16.2695 16.6639 16.2712C16.6412 16.2729 16.6194 16.2805 16.6006 16.2933C16.5817 16.306 16.5665 16.3234 16.5564 16.3438C16.5463 16.3642 16.5417 16.3868 16.543 16.4095L16.4425 23.2002C16.4404 23.2709 16.4549 23.3411 16.485 23.405C16.515 23.469 16.5598 23.525 16.6155 23.5685L19.1267 25.6332C19.3443 25.8006 19.4615 26.1143 19.4615 26.3871V27.4396C19.4615 27.5116 19.394 27.501 19.3259 27.4814L15.3404 26.3743C15.127 26.2906 14.8898 26.2906 14.6764 26.3743L10.7032 27.4826C10.5943 27.5155 10.5358 27.5116 10.5358 27.3838V26.3838C10.5358 25.9296 10.5949 25.8676 10.8873 25.6355L13.4375 23.5317C13.4928 23.4878 13.5373 23.4318 13.5673 23.3679C13.5973 23.304 13.6121 23.234 13.6105 23.1634L13.4598 16.4291C13.4593 16.4045 13.4527 16.3805 13.4408 16.3591C13.4289 16.3377 13.4119 16.3195 13.3913 16.3061C13.3707 16.2928 13.3472 16.2846 13.3228 16.2824C13.2984 16.2802 13.2738 16.284 13.2511 16.2934L4.28579 20.357V18.8704C4.29001 18.7979 4.30991 18.7272 4.34412 18.6632C4.37832 18.5991 4.426 18.5432 4.48389 18.4994L13.2701 11.2533C13.3036 11.2315 13.3203 11.1417 13.3203 11.1032L13.2255 7.53736C13.2143 7.35321 13.2087 6.72319 13.2087 6.5329C13.2087 4.06249 13.8879 2.5 15 2.5C16.1122 2.5 16.7857 4.0558 16.7857 6.53346Z" stroke="white" stroke-width="1.63" stroke-linecap="round" stroke-linejoin="round"/>
@@ -203,7 +206,7 @@
         <h2>Listado de servicios</h2>
 
         <div class="service-list-left-right-container">
-          <div class="service-list-left">
+          <div data-aos="fade-left" class="service-list-left">
 
             <div class="service-content">
               <p>Revisión y evaluación de su caso en particular</p>
@@ -228,7 +231,7 @@
 
           </div>
 
-          <div class="service-list-right">
+          <div data-aos="fade-right" class="service-list-right">
 
             <div class="service-content">
               <div class="service-list-circle">
@@ -262,7 +265,7 @@
       <div class="countries-container">
         <h2>Paises mas visitados</h2>
 
-        <div class="countries-list">
+        <div data-aos="fade-down" class="countries-list">
           <div class="country">
             <div class="overlay"></div>
             <img src="./static/images/Country/Unite_States.jpg" alt="Estados Unidos">
@@ -311,7 +314,7 @@
 
         <div class="contact-content-container">
 
-          <div class="contact-content-left">
+          <div data-aos="fade-right" class="contact-content-left">
             <form id="contact-form-id" class="contact-form" action="https://formspree.io/f/xpzbdkgl" method="POST">
               <input class="contact-input name" type="text" name="Nombre" placeholder="Nombres" required>
               <input class="contact-input email" type="email" name="Correo" placeholder="Correo" required>
@@ -327,7 +330,7 @@
             </form>
           </div>
 
-          <div class="contact-content-right">
+          <div data-aos="fade-left" class="contact-content-right">
             <div class="information">
               <h3>Correo</h3>
               <a class="title-h3" href="mailto:elitetourecuador@hotmail.com" target="_blank" rel="noopener noreferrer">
@@ -433,6 +436,7 @@
       </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./index.js"></script>
 </body>
 </html>
