@@ -44,9 +44,6 @@
   }
 
   /* Visas-types ============== */
-  /* .visa-cards-container {
-    grid-template-columns: repeat(auto-fit, );
-  } */
 
   /* About ============== */
   .about-container {
@@ -56,9 +53,6 @@
   }
 
   /* Steps-to-apply ============== */
-  /* .steps {
-    grid-template-columns: repeat(3, 1fr);
-  } */
 
   /* Service-list ============== */
   .service-list-container h2 {
@@ -74,13 +68,20 @@
   }
 
   /* Countries ============== */
-  /* .countries-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  } */
 
   /* Contact ============== */
+  .contact-content-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "name email"
+      "phone typeOfVisa"
+      "message message"
+      "button button";
+  }
 
   /* Footer ============== */
   .footer-menu-social-media {

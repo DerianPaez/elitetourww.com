@@ -420,6 +420,68 @@ button {
 }
 
 /* Contact ============== */
+.contact-content-container {
+  display: grid;
+  gap: 30px;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-areas:
+    "name"
+    "email"
+    "phone"
+    "typeOfVisa"
+    "message"
+    "button";
+  gap: 10px;
+}
+
+.name { grid-area: name }
+.email { grid-area: email }
+.phone { grid-area: phone }
+.type-of-visa { grid-area: typeOfVisa }
+.message { grid-area: message }
+.button { grid-area: button }
+
+.contact-input, .contact-textarea {
+  border: 2px solid var(--ligthBlue-color);
+  border-radius: 5px;
+  background-color: var(--white-color);
+  padding: 10px 15px;
+  color: var(--gray-color);
+  width: 100%;
+  outline: none;
+}
+
+.contact-input::placeholder {
+  color: var(--gray-color);
+}
+
+.contact-content-right {
+  display: grid;
+  gap: 30px;
+}
+
+.contact-content-right h3 {
+  margin-bottom: 5px;
+  color: var(--gray-color);
+}
+
+.contact-content-right a {
+  width: max-content;
+  color: var(--black-color);
+  font-size: 1.25em;
+  font-weight: bold;
+
+}
+
+.contact-social-media {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 10px;
+}
 
 /* Footer ============== */
 .footer-menu-social-media {
