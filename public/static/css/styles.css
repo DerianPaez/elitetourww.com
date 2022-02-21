@@ -141,7 +141,7 @@ button {
 }
 
 .menu-list li a {
-  font-size: 1.12em;
+  font-size: 1.1em;
   text-transform: uppercase;
   font-weight: bold;
   color: var(--black-color);
@@ -442,7 +442,7 @@ button {
   color: var(--black-color);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.12em;
+  font-size: 1.1em;
 }
 
 .footer-social-media {
