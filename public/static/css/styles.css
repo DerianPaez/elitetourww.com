@@ -30,20 +30,20 @@ li {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 1em;
 }
 
 p {
@@ -67,7 +67,7 @@ button {
   border: 2px solid var(--ligthBlue-color);
   border-radius: 5px;
   color: var(--black-color);
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 700;
 }
 
@@ -139,7 +139,7 @@ button {
 }
 
 .menu-list li a {
-  font-size: 18px;
+  font-size: 1.12em;
   text-transform: uppercase;
   font-weight: bold;
   color: var(--black-color);
@@ -182,7 +182,7 @@ button {
 }
 
 .banner-container p {
-  font-size: 20px;
+  font-size: 1.25em;
   color: var(--white-color);
 }
 
@@ -318,7 +318,7 @@ button {
 }
 
 .step h3 {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: bold;
   margin-bottom: 12px;
 }
@@ -360,7 +360,7 @@ button {
 }
 
 .service-list-circle p {
-  font-size: 35px;
+  font-size: 2em;
   color: var(--black-color);
   font-weight: 800;
 }
@@ -401,7 +401,7 @@ button {
 
 .country-name {
   transition: .3s;
-  font-size: 28px;
+  font-size: 1.5em;
   font-weight: bold;
   width: max-content;
   height: min-content;
@@ -442,7 +442,7 @@ button {
   color: var(--black-color);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.12em;
 }
 
 .footer-social-media {
