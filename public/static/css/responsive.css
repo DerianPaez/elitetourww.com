@@ -108,8 +108,8 @@
 
   /* Countries ============== */
   .countries-list {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 60px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
   }
 
   /* Contact ============== */
