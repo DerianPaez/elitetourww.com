@@ -61,6 +61,10 @@
   } */
 
   /* Service-list ============== */
+  .service-list-container h2 {
+    text-align: center;
+  }
+
   .service-list-left-right-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -68,7 +72,7 @@
   .service-list-left p {
     text-align: right;
   }
-  
+
   /* Countries ============== */
   /* .countries-list {
     display: grid;
@@ -123,6 +127,36 @@
   }
 
   /* Services-list ============== */
+  .service-list-left-right-container {
+    display: grid;
+    gap: 50px;
+  }
+
+  .service-content {
+    gap: 50px;
+  }
+
+  .service-list-left, .service-list-right {
+    gap: 50px;
+  }
+
+  .service-list-right .service-content {
+    grid-template-columns: 1fr 3fr;
+    text-align: right;
+  }
+
+  .service-content {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .service-content p {
+    text-align: left;
+  }
+
+  .service-list-circle {
+    justify-self: center;
+  }
+
 
   /* Countries ============== */
   .countries-list {
