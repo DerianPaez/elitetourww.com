@@ -551,9 +551,69 @@ button {
 }
 
 .footer-rights {
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: var(--black-color);
   color: var(--white-color);
   padding: 20px 7%;
   text-align: center;
+  gap: 7px;
 }
 
+.footer-rights span {
+  font-size: 0.9em;
+  user-select: none;
+}
+
+.footer-rights a {
+  font-size: 0.9em;
+  color: var(--white-color);
+  transition: .3s;
+}
+
+.footer-rights a:hover {
+  color: var(--gray-color);
+}
+
+/* Privacy policy & Terms ============== */
+
+.privacy-policy, .terms {
+  padding-top: 100px;
+}
+
+.privacy-policy h1, .terms h1 {
+  margin-bottom: 20px;
+}
+
+.privacy-policy h2, .terms h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.privacy-policy h3, .terms h3 {
+  margin-bottom: 10px;
+}
+
+.privacy-policy h3, .terms h3 {
+  margin-top: 10px;
+}
+
+.privacy-policy p, .terms p {
+  padding: 10px 0;
+}
+
+.privacy-policy strong, .terms strong {
+  color: var(--black-color);
+  font-weight: 1000;
+}
+
+.privacy-policy ul, .terms ul {
+  margin-left: 60px;
+}
+
+.privacy-policy li, .terms li {
+  list-style: disc;
+  color: var(--gray-color);
+  font-weight: 600;
+}

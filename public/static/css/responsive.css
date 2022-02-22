@@ -167,4 +167,8 @@
   }
 
   /* Footer ============== */
+  .footer-rights {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
 }
