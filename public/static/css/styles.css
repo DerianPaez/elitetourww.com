@@ -167,12 +167,14 @@ button {
   align-items: center;
   grid-template-columns: 1fr;
   min-height: 100vh;
-  background-image: url(../images/Banner.png) ;
+  background-image: url(../images/Banner.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   position: relative;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
 }
 
 .banner::before {
